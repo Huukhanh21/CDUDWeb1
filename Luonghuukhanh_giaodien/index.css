@@ -1,0 +1,148 @@
+/* Reset some default styles for consistency */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Global container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+.header {
+    background: #fff;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.utility {
+    clear: both;
+}
+
+/* Slider Styles */
+.slider {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Product Category, New, Sale Styles */
+.product-category, .product-new, .product-sale {
+    padding: 20px ;
+    text-align: center;
+}
+
+/* Product Category Styles */
+.product-category {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Chia thành 5 cột bằng nhau */
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+    justify-content: center; /* Căn giữa các cột */
+}
+
+.product {
+    text-align: center;
+}
+
+.product-main image{
+    width: 10px;
+    height: 20px;
+}
+
+
+.product h3 {
+    margin-top: 10px;
+}
+
+
+.product img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Copyright Styles */
+.copyright {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.logo{
+    height: 80px;
+   
+}
+
+.search-container {
+    float: right;
+    margin-top: 20px;
+    height: 50px;
+    width: 400px;
+    margin-right: 220px;
+    border-color: #000000;
+}
+
+.search-container input[type=text] {
+    padding: 8px;
+    border-radius: 5px;
+    width: 330px;
+
+}
+
+.search-container button {
+    padding: 8px 12px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #444845;
+}
